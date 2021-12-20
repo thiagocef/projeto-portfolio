@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="icones/letra-t.png" type="image/x-icon">
+
+    <title>Thiago Cordeiro - Portfolio</title>
+
+    <link rel="stylesheet" href="estilos/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Inconsolata:wght@200;400&display=swap" rel="stylesheet"> <!--google fontes-->
+
+    <script type="text/javascript" src="js/scripts.js"></script>
+
+</head>
+<body>
+    <nav id="navigation" class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="curriculo.html">Currículo</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li id="treslinhas" class="treslinhas" onclick="opennav()">&#9776;</li> <!--ícone do menu e sua classe-->
+        </ul>
+    </nav>
+
+    <div class="main">
+        <ul class="caminho">
+            <li><a href="index.html">Home</a></li>
+            <li>></li>
+            <li>Portfolio</li>
+        </ul>
+
+        <h1 id="portfoliotitulo">Portfolio</h1>
+            <!-- inline style para incluir uma imagem diferente para cada div -->
+            <!-- a imagem foi criada com o mesmo tamanho da div - 320px -->
+            
+            <!-- aqui temos uma div para cada projeto -->
+            <!-- para inserir um novo projeto, basta alterar o caminho da imagem e o link da página do projeto -->
+
+                <div style="background-image: url('img/ccb.jpg')" class="miniatura">
+                   <a href="trabalhos.html"> 
+                        <div class="blackbox">
+
+                            <div class="blackbox-text">
+                                <h1>Título do Projeto</h1>
+                                <h2>Front End</h2>
+                            </div>
+
+                        </div>
+                    </a>
+                </div>
+            
+                <div style="background-image: url('img/ccb.jpg')" class="miniatura">
+                    <a href="#">
+                        <div class="blackbox">
+
+                            <div class="blackbox-text">
+                                <h1>Título do Projeto</h1>
+                                <h2>Front End</h2>
+                            </div>
+
+                        </div>
+                    </a>
+                </div>
+            
+                <div style="background-image: url('img/ccb.jpg')" class="miniatura">
+                    <a href="#">
+                        <div class="blackbox">
+
+                            <div class="blackbox-text">
+                                <h1>Título do Projeto</h1>
+                                <h2>Front End</h2>
+                            </div>
+
+                        </div>
+                    </a>
+                </div>
+           
+    </div>
+    
+</body>
+</html>
